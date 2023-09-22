@@ -1,0 +1,304 @@
+  body,
+  html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      margin: 0;
+  }
+
+  .container {
+      display: flex;
+      border: 1px solid grey;
+      border-radius: 50%;
+      height: 100%;
+  }
+
+  .container .navbar {
+      width: 250px;
+      background-color: rgb(14, 60, 158);
+      color: white;
+      text-align: center;
+      line-height: 70px;
+  }
+
+  .container .navbar a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+  }
+
+  .container .navbar a:hover {
+      background-color: white;
+      color: rgb(14, 60, 158);
+      margin: 10px;
+      line-height: 70px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5%;
+      width: 100%;
+      transition: width 0.3s ease-in-out;
+      padding: 20px 35px;
+      width: 100%;
+
+  }
+
+  .navbar .logo {
+      font-size: 30px;
+      padding-bottom: 40px;
+  }
+
+  .container .main {
+
+      width: 100%;
+      background-color: #e6eef1;
+  }
+
+  .container .main .topnav {
+      min-height: 70px;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+  }
+
+  .container .main .topnav .profile {
+      height: 30px;
+  }
+
+  .container .main .topnav span {
+      font-size: 22px;
+      color: rgb(14, 60, 158);
+      ;
+      padding-right: 80rem;
+      font-weight: bold;
+  }
+
+  .container .main .topnav #name {
+      padding: 0px 10px;
+      font-weight: bold;
+  }
+
+  .container .main .topnav .fa-envelope {
+      padding: 0 18px;
+      font-size: 25px;
+      color: rgb(14, 60, 158);
+      cursor: pointer;
+
+  }
+
+  .container .main .topnav .fa-globe {
+      padding: 0 22px;
+      font-size: 25px;
+      color: rgb(14, 60, 158);
+      cursor: pointer;
+  }
+
+  .container .main .content {
+      display: flex;
+  }
+
+  .container .main .content1 {
+      display: flex;
+  }
+
+  .container .main .content2 {
+      display: flex;
+  }
+
+  .container .main .content .box {
+      height: 11rem;
+      flex: 2;
+      background-color: rgba(216, 164, 68, 0.863);
+      margin: 0 7rem;
+      margin-top: 30px;
+      border-radius: 5%;
+      text-align: center;
+      font-size: 30px;
+
+  }
+
+  .container .main .content .box h4{
+    margin-top: 10px;
+  }
+  .container .main .content .box .fa-user-md {
+    padding-top: 20px;
+      font-size: 60px;
+  }
+  .container .main .content .box .fa-users {
+    padding-top: 20px;
+      font-size: 60px;
+  }
+
+
+  .container .main .content .box1 {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+      height: 12rem;
+      flex: 2.5;
+      background-color: rgba(216, 164, 68, 0.863);
+      margin: 0 7rem;
+      margin-top: 30px;
+  }
+  .container .main .content .box1 p{
+      font-size: 17px;
+    font-weight:600;
+  }
+
+  .container .main .content1 .box {
+      height: 18rem;
+      flex: 2;
+      background-color:rgba(216, 164, 68, 0.863);
+      margin: 0 5rem;
+      margin-top: 50px;
+  }
+  .container .main .content1 .box img{
+    height: 100%;
+  }
+
+  .container .main .content1 .box1 {
+    text-align: center;
+      height: 18rem;
+      flex: 3;
+      background-color: rgba(216, 164, 68, 0.863);
+      margin: 0 8rem;
+      margin-top: 50px;
+  }
+
+  .container .main .content1 .box1 .fa-hourglass-half {
+    font-size: 25px;
+    padding-left:5px ;
+  }
+
+
+  .container .main .content1 .box1 span{
+    font-size: 35px;
+    font-weight: bolder;}
+
+    .container .main .content1 .box1 p{
+        font-size: 16px;
+      font-weight: 600;
+      line-height: 2;
+    }
+  
+ 
+
+  .container .main .content2 .box {
+      height: 13rem;
+      flex: 1;
+      background-color: rgba(216, 164, 68, 0.863);
+      margin: 0 5rem;
+      margin-top: 50px;
+      line-height: 1.5;
+  }
+
+  .container .main .content2 .box h2{
+    margin-left: 25px;
+  }
+
+  .container .main .content2 .box1 {
+      height: 14rem;
+      flex: 2;
+      background-color: rgba(216, 164, 68, 0.863);
+      margin: 0 5rem;
+      margin-top: 60px;
+      line-height: 1.5;
+
+  }
+  .container .main .content2 .box1 h2{
+    margin-left: 20px;
+  }
+
+
+  /* ****************** About US ************************ */ 
+  .about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #3498db;
+  }
+  
+  .about-us-header p {
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .about-us-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-us-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .about-us-section p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .about-us-list {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .about-us-list-item {
+    font-size: 1.2em;
+  }
+  
+  .about-us-thank-you {
+    text-align: center;
+    font-size: 1.2em;
+    color: #27ae60;
+  }
+  
+  .about-us-back-to-home {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .about-us-back-to-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .about-us-back-to-home a:hover {
+    background-color: #2980b9;
+  }
+
+
+  /* ***********Feedback form *********** */
+
+  .submit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
