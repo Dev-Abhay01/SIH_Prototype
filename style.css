@@ -108,7 +108,7 @@
   .container .main .content .box {
       height: 11rem;
       flex: 2;
-      background-color: rgba(216, 164, 68, 0.863);
+      background-color: #7b53d8d7;
       margin: 0 7rem;
       margin-top: 30px;
       border-radius: 5%;
@@ -136,7 +136,7 @@
     text-align: center;
       height: 12rem;
       flex: 2.5;
-      background-color: rgba(216, 164, 68, 0.863);
+      background-color: #7b53d8d7;
       margin: 0 7rem;
       margin-top: 30px;
   }
@@ -148,7 +148,7 @@
   .container .main .content1 .box {
       height: 18rem;
       flex: 2;
-      background-color:rgba(216, 164, 68, 0.863);
+      background-color:#7b53d8d7;
       margin: 0 5rem;
       margin-top: 50px;
   }
@@ -160,7 +160,7 @@
     text-align: center;
       height: 18rem;
       flex: 3;
-      background-color: rgba(216, 164, 68, 0.863);
+      background-color: #7b53d8d7;
       margin: 0 8rem;
       margin-top: 50px;
   }
@@ -186,7 +186,7 @@
   .container .main .content2 .box {
       height: 13rem;
       flex: 1;
-      background-color: rgba(216, 164, 68, 0.863);
+      background-color: #7b53d8d7;
       margin: 0 5rem;
       margin-top: 50px;
       line-height: 1.5;
@@ -199,7 +199,7 @@
   .container .main .content2 .box1 {
       height: 14rem;
       flex: 2;
-      background-color: rgba(216, 164, 68, 0.863);
+      background-color: #7b53d8d7;
       margin: 0 5rem;
       margin-top: 60px;
       line-height: 1.5;
