@@ -20,6 +20,7 @@
       line-height: 70px;
   }
 
+  
   .container .navbar a {
       color: white;
       font-size: 18px;
@@ -50,7 +51,19 @@
 
       width: 100%;
       background-color: #e6eef1;
-  }
+     
+        max-height: 100vh; /* Set maximum height to viewport height */
+        overflow-y: auto; /* Enable vertical scrolling */
+        width: calc(100% - 250px); /* Adjust for the width of the sidebar */
+        border-radius: 0;
+    }
+  
+    .container .main .front {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto; /* Add this line to make it scrollable */
+  } 
 
   .container .main .topnav {
       min-height: 70px;
@@ -68,7 +81,6 @@
   .container .main .topnav span {
       font-size: 22px;
       color: rgb(14, 60, 158);
-      ;
       padding-right: 80rem;
       font-weight: bold;
   }
@@ -301,4 +313,58 @@
   
   .submit-button:hover {
     background-color: #2980b9;
+  }
+
+
+  @media (min-width: 768px) {
+    .container {
+      border-radius: 0;
+      display: flex;
+    }
+  
+    .container .navbar {
+      width: 250px;
+      height: 100vh;
+      border-radius: 0;
+    }
+  
+    .container .main {
+      width: calc(100% - 250px);
+      border-radius: 0;
+    }
+  
+    .container .main .topnav span {
+      padding-right: 75rem; /* Adjust as needed */
+    }
+  
+    .container .main .content .box,
+    .container .main .content .box1,
+    .container .main .content1 .box,
+    .container .main .content1 .box1,
+    .container .main .content2 .box,
+    .container .main .content2 .box1 {
+      margin: 10 60px; /* Adjust as needed */
+    }
+  
+    .container .main .content .box,
+    .container .main .content1 .box,
+    .container .main .content2 .box {
+      height: 15rem; /* Adjust as needed */
+    }
+  
+    .container .main .content .box .fa-user-md,
+    .container .main .content .box .fa-users {
+      padding-top: 30px; /* Adjust as needed */
+    }
+  }
+  
+  /* Optional: Adjust styles for larger screens */
+  @media (min-width: 1200px) {
+    .container .navbar {
+      width: 300px; /* Adjust as needed */
+    }
+  
+    .container .main {
+      width: calc(100% - 300px); /* Adjust as needed */
+    }
   }

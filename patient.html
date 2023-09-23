@@ -17,7 +17,7 @@
         padding: 0;
       }
       body {
-        background-color: rgb(78, 0, 161);
+        background-color: #7b53d8d7;
         font-family: sans-serif;
       }
 
@@ -25,44 +25,16 @@
         width: 78vw;
         height: 97vh;
         background: rgb(229, 226, 226);
-        margin: -45% 0 0 21vw;
-        opacity: 0;
+        margin: 0% 0 0 10vw;
+        opacity: 1;
         /* position: fixed;
         top: 68px;
         left: -250px;
         z-index: 2; */
         border-radius: 20px;
-        transform: translate(100%, -50%) scale(0);
-        transition: transform 1s, top 1s;
+        /* transform: translate(100%, -50%) scale(0);
+        transition: transform 1s, top 1s; */
         /* position: fixed; */
-      }
-      .navli {
-        color: white;
-        width: 20vw;
-        height: 100vh;
-        margin: 100px 0 0 0;
-        /* background: rgb(87, 37, 250); */
-      }
-      .navli li {
-        padding: 100px 0 0 74px;
-        font-size: 27px;
-        cursor: pointer;
-        /* background: rgb(29, 27, 27); */
-        text-align: center;
-        position: relative;
-        width: 265px;
-        height: 50px;
-        margin: 0 0 0 18px;
-        display: inline-flex;
-        /* padding-right: 39px; */
-        /* border: 2px solid white; */
-      }
-      .navli li:hover {
-        border: 2px solid white;
-        /* background: rgb(51, 10, 119); */
-      }
-      .navli li i {
-        margin: 0 0 0 10px;
       }
 
       .navbar {
@@ -82,7 +54,7 @@
       .divitem span {
         height: 150px;
         width: 280px;
-        background: rgb(61, 9, 181);
+        background: #7b53d8d7;
         position: relative;
         display: inline-flex;
         /* flex-direction: column; */
@@ -94,14 +66,14 @@
         height: 84vh;
         background: rgb(255, 255, 255);
         position: absolute;
-        margin: 19px 0 0 69%;
+        margin: 19px 0 0 54%;
         border-radius: 20px;
       }
       .mside {
         width: 32vw;
         height: 45vh;
         position: absolute;
-        margin: 12% 0 0 23%;
+        margin: 12% 0 0 19%;
       }
       .mside span {
         width: 95%;
@@ -130,7 +102,7 @@
         border-radius: 20px;
       }
       #sspan {
-        margin-top: 27%;
+        margin-top: 21%;
       }
       #sspan img {
         width: 21vw;
@@ -140,14 +112,14 @@
         width: 265px;
         height: 245px;
         background: white;
-        margin: -16% 0 0 24%;
+        margin: -16% 0 0 26%;
         border-radius: 20px;
       }
       .md2 {
         width: 265px;
         height: 245px;
         background: white;
-        margin: -17% 0 0 44%;
+        margin: -17% 0 0 46%;
         border-radius: 20px;
       }
       /* .navbar input {
@@ -240,34 +212,121 @@
       #dashtext {
         cursor: pointer;
       }
-      .right.active {
+      #pback {
+        position: absolute;
+        top: 30px;
+        right: 16%;
+        color: blue;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      /* .right.active {
         left: 0;
         transform: translate(-1%, -35%) scale(1);
         pointer-events: auto;
-      }
+      } */
       /* .lsidebar {
         margin: 0 0 0 0;
         background: #b26e6e;
         width: 100px;
         height: 1000px;
       } */
-      #logo {
-        width: 18vw;
-        position: fixed;
-        margin: -80px 0 0 0;
-      }
+
+
+
+      @media (max-width: 768px) {
+  .right {
+    width: 90vw;
+    margin: 0% 0 0 5vw;
+  }
+
+  .navbar {
+    width: 86vw;
+    margin: 0px 0 0 2vw;
+  }
+
+  .divitem {
+    width: 80vw;
+    margin: 14px 0 0 2vw;
+  }
+
+  .rside {
+    width: 80vw;
+    margin: 19px 0 0 10%;
+  }
+
+  .mside {
+    width: 80vw;
+    margin: 12% 0 0 10%;
+  }
+
+  .sidebar {
+    width: 80vw;
+    margin: 196px 0 0 2vw;
+  }
+
+  .md1, .md2 {
+    width: 80vw;
+    margin: -17% 0 0 10%;
+    overflow: hidden;
+  }
+}
+.md1 img {
+   /* Adjust the width as needed */
+  margin: 8px 0 0 20px;
+}
+
+.md2 img {
+   /* Adjust the width as needed */
+  margin: 8px 0 0 20px;
+  
+}
+#span{overflow: hidden;}
+
+
+/* Add more media queries as needed for different screen sizes */
+@media (max-width: 480px) {
+  .right {
+    width: 90vw;
+    margin: 0% 0 0 5vw;
+  }
+
+  .navbar {
+    width: 86vw;
+    margin: 0px 0 0 2vw;
+  }
+
+  .divitem {
+    width: 80vw;
+    margin: 14px 0 0 2vw;
+  }
+
+  .rside {
+    width: 80vw;
+    margin: 19px 0 0 10%;
+  }
+
+  .mside {
+    width: 80vw;
+    margin: 12% 0 0 10%;
+  }
+
+  .sidebar {
+    width: 80vw;
+    margin: 196px 0 0 2vw;
+  }
+#span{overflow: hidden;}
+  .md1, .md2 {
+    width: 80vw;
+    margin: -17% 0 0 10%;
+    overflow: hidden;
+  }
+}
+
     </style>
   </head>
   <body>
-    <img src="ded.png" id="logo" />
-    <ul class="navli">
-      <li>Dashboard <i class="fa-solid fa-house"></i></li>
-      <li id="dashtext">Patients <i class="fa-solid fa-bed-pulse"></i></li>
-      <li>Schedules <i class="fa-regular fa-calendar-days"></i></li>
-      <li>messages <i class="fa-solid fa-message"></i></li>
-      <li id="doctors">collegues <i class="fa-solid fa-user-group"></i></li>
-    </ul>
-
     <div class="right">
       <div class="navbar">
         <div class="search">
@@ -278,6 +337,7 @@
             placeholder="Search Appointments, Patients and etc."
           />
         </div>
+        <a href="index.html" id="pback"><- go back</a>
       </div>
       <div class="divitem">
         <span>
